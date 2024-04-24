@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
     //TTS part
     //STT cfg init
     public void STT_cfg_init(){
-        SpeechUtility.createUtility(this, SpeechConstant.APPID +"=92d5c0e8");                       //Create STT server,where the SDK package is deeply bound to this APPID parameter
+        SpeechUtility.createUtility(this, SpeechConstant.APPID +"=299d43c4");                       //Create STT server,where the SDK package is deeply bound to this APPID parameter
         STT = SpeechRecognizer.createRecognizer(MainActivity.this, mInitListener);                  //Initialize STT server
         STT_params_init();                                                                          //Initialize STT params
         STT_Results = new LinkedHashMap<String, String>();                                          //Initialize Hashmap
